@@ -450,6 +450,15 @@ footer {
 		display: none;
 	}
 
+.social {
+	color: #000;
+}
+
+.social i {
+	font-size: 48pt;
+	margin: 0 5%
+}
+
 @media screen and (max-width: 1366px) {
 	.topnav a {
 		margin: 15px 5px;
