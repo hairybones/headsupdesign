@@ -111,6 +111,18 @@ h1 {
 	font-weight: bold;
 }
 
+#myTopnav {
+	background-color: rgba(0,0,0,0);
+	-webkit-transition: background-color 0.25s;
+    -moz-transition: background-color 0.25s;
+    -o-transition: background-color 0.25s;
+    transition: background-color 0.25s;
+}
+
+#myTopnav.responsive {
+	background-color: rgba(0,0,0,0.25);
+}
+
 .topnav {
 	overflow: hidden;
 }
@@ -164,6 +176,7 @@ h1 {
 	overflow: hidden;
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
+	background: #fff url("images/headsupdesign-about.png") no-repeat center;
 }
 
 h2 {
@@ -481,9 +494,11 @@ footer {
 		height: 75px;
 		margin: 0% 10%;
 	}
+	
 	h2 {
 		background: rgba(255, 255, 255, 0.5)
 	}
+	
 	.button {
 	width: 50%;
 	}
