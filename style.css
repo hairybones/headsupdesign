@@ -228,6 +228,32 @@ h4 {
 	font-weight: bold;
 }
 
+.story {
+	background-color: #DDD;
+	display: block;
+	padding: 14px 16px;
+	text-decoration: none;
+	text-align: left;
+	font-size: 18pt;
+	margin: 25px auto;
+	color: #000;
+	-webkit-transition: background-color 0.25s;
+    -moz-transition: background-color 0.25s;
+    -o-transition: background-color 0.25s;
+    transition: background-color 0.25s;
+	width: 50%;
+}
+
+.storyimg {
+	align: left;
+	height: 100px;
+	width: auto;
+}
+
+.story:hover {
+	background-color: #888;
+}
+
 /* Position the image container (needed to position the left and right arrows) */
 
 #Slideshow {
@@ -502,6 +528,10 @@ footer {
 	.button {
 	width: 50%;
 	}
+	
+	.story {
+	width: 70%;
+	}
 }
 
 @media screen and (max-width: 800px ){
@@ -637,6 +667,10 @@ footer {
 	
 	#Slideshow {
 		display: none;
+	}
+	
+	.story {
+	width: 90%;
 	}
 	
 }
